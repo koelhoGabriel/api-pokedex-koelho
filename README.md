@@ -1,31 +1,36 @@
-# Node.js Hello World
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+**Project Name: Pokedex Node Express API KOELHO**
 
-## How to Use
+---
 
-You can choose from one of the following two methods to use this repository:
+### Description:
 
-### One-Click Deploy
+This project is a Node.js API that uses PokeApi to search Pokemon. This API has built using Express. The API runs on port 4000 by default.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+### Installation:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
+1. Clone the repository:
 
-### Clone and Deploy
+   ```bash
+   git clone https://github.com/koelhoGabriel/api-pokedex-koelho.git
+   ```
 
-```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
-```
+2. Install dependencies:
 
-Install the Vercel CLI:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm i -g vercel
-```
+### Usage:
 
-Then run the app at the root of the repository:
+1. Start the server:
 
-```bash
-vercel dev
-```
+   ```bash
+   npm start
+   ```
+
+2. The API will be accessible at `http://localhost:4000`.
+
+### Endpoints:
+
+- **GET /pokemon/:id**: Retrieves a pokemon data baseon on your name.
