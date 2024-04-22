@@ -15,7 +15,7 @@ This project is a Node.js API that uses PokeApi to search Pokemon. This API has 
    git clone https://github.com/koelhoGabriel/api-pokedex-koelho.git
    ```
 
-2. Install dependencies:
+2. Install dependencies: (Note: It's necessary node LTS >=20)
 
    ```bash
    npm install
